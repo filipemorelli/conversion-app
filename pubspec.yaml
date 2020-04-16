@@ -1,0 +1,38 @@
+name: conversion_app
+description: Unit Converter App that takes in a value and unit and outputs a conversion in another unit.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "0.7.3"
+  flutter_launcher_name: "0.0.1"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter_launcher_name:
+  name: "Conversion App"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/data/regular_units.json
+    - assets/icons/area.png
+    - assets/icons/currency.png
+    - assets/icons/digital_storage.png
+    - assets/icons/length.png
+    - assets/icons/mass.png
+    - assets/icons/power.png
+    - assets/icons/time.png
+    - assets/icons/volume.png
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: third_party/Raleway-Regular.ttf
