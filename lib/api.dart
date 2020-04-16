@@ -72,7 +72,7 @@ class Api {
     try {
       final httpRequest = await _httpClient.getUrl(uri);
       final httpResponse = await httpRequest.close();
-      if (httpResponse.statusCode != HttpStatus.ok) {
+      if (httpResponse.statusCode != HttpStatus.OK) {
         return null;
       }
       // The response is sent as a Stream of bytes that we need to convert to a
